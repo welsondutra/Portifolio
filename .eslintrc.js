@@ -7,18 +7,24 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'airbnb/base',
-    'prettier',
+    'plugin:prettier/recommended',
+    'plugin:import/errors',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'import'],
   rules: {
+    'import/export': 0,
     semi: ['error', 'always'],
     quotes: ['error', 'single'],
     indent: ['error', 2],
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };

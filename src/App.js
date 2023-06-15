@@ -1,18 +1,12 @@
 import React from 'react';
+import './App.css';
+import { Header, Layout } from './components';
 
-import { Button } from './components';
-import { Link } from 'react-router-dom';
-console.log('asdf');
- 
 function App() {
   return (
-    <div>
-      <Link to="asd">asd</Link>
-      <Button>
-        <h3>
-         Home
-        </h3>
-      </Button>
+    <div className="App">
+      <Header />
+      <Layout />
     </div>
   );
 }

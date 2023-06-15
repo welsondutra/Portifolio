@@ -1,11 +1,8 @@
-import React from "react";
-import { Button } from "../components";
+import React from 'react';
+import { Typography } from '@mui/material';
 
 const Home = () => {
-  return (
-    <div >
-    </div>
-  )
-}
+  return <Typography>Home</Typography>;
+};
 
 export default Home;
