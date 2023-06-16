@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import { Header, Layout } from './components';
+import { Header } from './components';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Layout />
-    </div>
+    <body>
+      <header>
+        <Header />
+      </header>
+      <main>
+        {/* <Layout /> */} <div>asdf</div>
+      </main>
+    </body>
   );
 }
 
