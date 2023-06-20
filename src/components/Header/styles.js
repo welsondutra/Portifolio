@@ -1,6 +1,19 @@
-import { IconButton } from '@mui/material';
 import styled from 'styled-components';
 import colors from '../../theme';
+
+export const Container = styled.div`
+  position: fixed;
+  width: 100vw;
+`;
+
+export const Nav = styled.nav`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: ${colors.dark2};
+  height: 10vh;
+  box-shadow: 1px 1px 4px ${colors.dark1};
+`;
 
 export const Ul = styled.ul`
   list-style: none;
@@ -13,9 +26,9 @@ export const Ul = styled.ul`
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 50vw;
+    width: 40vw;
     height: 92vh;
-    background-color: var(--color-dark2);
+    background-color: ${colors.dark2};
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -39,10 +52,9 @@ export const Li = styled.li`
   }
 `;
 
-export const Hamburger = styled(IconButton)`
-  color: ${colors.white};
-
-  @media (max-width: 999px) {
-    display: block;
+export const Hamburger = styled.div`
+  cursor: pointer;
+  @media (min-width: 999px) {
+    display: none;
   }
 `;

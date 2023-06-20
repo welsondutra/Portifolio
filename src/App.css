@@ -37,25 +37,7 @@ a:hover {
   letter-spacing: 4px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--color-dark2);
-  height: 10vh;
-  box-shadow: 1px 1px 4px var(--color-dark4);
-  
-}
-
 main {
   background-size: cover;
   height: 92vh;
 }
-
-@media (max-width:999px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
-

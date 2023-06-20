@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components';
+import { Footer, Header, Main } from './components';
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
         <Header />
       </header>
       <main>
-        {/* <Layout /> */} <div>asdf</div>
+        <Main />
+        <Footer />
       </main>
     </body>
   );
