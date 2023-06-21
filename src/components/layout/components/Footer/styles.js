@@ -2,10 +2,12 @@ import styled from 'styled-components';
 import * as colors from '../../../../theme';
 
 export const Container = styled.footer`
+  flex: 1;
   background-color: ${colors.default.dark1};
   color: ${colors.default.white};
   padding: 3rem;
   text-align: center;
+  bottom: 0;
 `;
 
 export const Ul = styled.ul`
