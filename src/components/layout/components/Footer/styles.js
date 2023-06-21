@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import * as colors from '../../theme';
+import * as colors from '../../../../theme';
 
-export const Footer = styled.footer`
+export const Container = styled.footer`
   background-color: ${colors.default.dark1};
   color: ${colors.default.white};
   padding: 3rem;

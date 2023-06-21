@@ -1,19 +1,9 @@
 import React from 'react';
 import './App.css';
-import { Footer, Header, Main } from './components';
+import { Layout } from './components';
 
 function App() {
-  return (
-    <body>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Main />
-        <Footer />
-      </main>
-    </body>
-  );
+  return <Layout></Layout>;
 }
 
 export default App;

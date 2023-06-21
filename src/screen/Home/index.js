@@ -2,7 +2,7 @@ import React from 'react';
 
 import * as S from './styles';
 
-export const Main = () => {
+const Home = () => {
   return (
     <div>
       <S.Section id="inicio">Inicio</S.Section>
@@ -11,3 +11,4 @@ export const Main = () => {
     </div>
   );
 };
+export default Home;

@@ -2,9 +2,9 @@ import React from 'react';
 import { BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs';
 import * as S from './styles';
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <S.Footer>
+    <S.Container>
       <S.Ul>
         <S.Li>
           <a
@@ -34,6 +34,8 @@ export const Footer = () => {
           </a>
         </S.Li>
       </S.Ul>
-    </S.Footer>
+    </S.Container>
   );
 };
+
+export default Footer;

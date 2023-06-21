@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import colors from '../../theme';
+import colors from '../../../../theme';
 import * as S from './styles';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 
-export const Header = () => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -35,3 +35,5 @@ export const Header = () => {
     </S.Container>
   );
 };
+
+export default Header;
