@@ -2,16 +2,19 @@ import styled from 'styled-components';
 import * as colors from '../../../../theme';
 
 export const Container = styled.footer`
+  flex: 1;
+  padding: 3rem;
+  bottom: 0;
+  text-align: center;
+
   background-color: ${colors.default.dark1};
   color: ${colors.default.white};
-  padding: 3rem;
-  text-align: center;
 `;
 
 export const Ul = styled.ul`
   display: flex;
-  justify-content: center;
   list-style: none;
+  justify-content: center;
 `;
 
 export const Li = styled.li`

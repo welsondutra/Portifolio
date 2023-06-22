@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Container from '../Container';
+import * as S from './styles';
 
 const Layout = (props) => {
   return (
     <div>
       <Header />
-      <Container>{props.children}</Container>
+      <S.Container>{props.children}</S.Container>
       <Footer />
     </div>
   );

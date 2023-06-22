@@ -4,11 +4,9 @@ import * as S from './styles';
 
 const Home = () => {
   return (
-    <div>
-      <S.Section id="inicio">Inicio</S.Section>
-      <S.Section id="sobre">Sobre</S.Section>
-      <S.Section id="habilidades">Habilidades</S.Section>
-    </div>
+    <S.Container>
+      <S.Section id="inicio">Home</S.Section>
+    </S.Container>
   );
 };
 export default Home;
