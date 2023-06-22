@@ -9,10 +9,11 @@ const Header = () => {
 
   return (
     <S.Container>
-      <S.Nav>
-        <S.A href="#inicio" className="logo">
-          Welson Dutra
-        </S.A>
+      <S.A href="#inicio" className="logo">
+        Welson Dutra
+      </S.A>
+
+      <nav>
         <S.Hamburger onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? (
             <AiOutlineClose color={colors.white} />
@@ -31,7 +32,7 @@ const Header = () => {
             <S.A href={'#habilidades'}>Habilidades</S.A>
           </S.Li>
         </S.Ul>
-      </S.Nav>
+      </nav>
     </S.Container>
   );
 };

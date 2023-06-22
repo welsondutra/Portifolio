@@ -2,16 +2,14 @@ import styled from 'styled-components';
 import colors from '../../../../theme';
 
 export const Container = styled.div`
+  display: flex;
   position: fixed;
   width: 100vw;
-`;
-
-export const Nav = styled.nav`
-  display: flex;
+  height: 10vh;
   justify-content: space-around;
   align-items: center;
+
   background-color: ${colors.dark2};
-  height: 10vh;
   box-shadow: 1px 1px 4px ${colors.dark1};
 `;
 
@@ -28,11 +26,12 @@ export const Ul = styled.ul`
     right: 0;
     width: 40vw;
     height: 92vh;
-    background-color: ${colors.dark2};
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
-    transform: translateX(${(props) => (props.isOpen === true ? '0' : '100%')});
+    align-items: center;
+
+    background-color: ${colors.dark2};
+    transform: translateX(${(props) => (props.isOpen ? '0' : '100%')});
     transition: transform 0.3s ease-in;
   }
 `;
