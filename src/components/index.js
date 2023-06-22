@@ -1,3 +1,2 @@
-export * from './Header';
-export * from './Main';
-export * from './Footer';
+export { default as Layout } from './layout';
+export { default as Container } from './Container';
