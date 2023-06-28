@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import { Container, Layout } from './components';
-import Home from './screen/Home';
+import { Skills, Home } from './screen';
 
 function App() {
   return (
     <Layout>
       <Container>
         <Home />
+        <Skills />
       </Container>
     </Layout>
   );
