@@ -1,37 +1,49 @@
-import styled from 'styled-components';
-import * as colors from '../../theme';
+import styled, { keyframes } from 'styled-components';
+import { Shared } from '../../components';
 
-export const Container = styled.div`
-  max-width: 400px;
-  padding-right: 5rem;
-`;
-
-export const Section = styled.section`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 0;
-  min-height: 100vh;
-  padding: 4rem;
-  background-color: ${colors.default.dark3};
-
-  @media (max-width: 999px) {
-    flex-direction: column;
-    justify-content: space-around;
+const typing = keyframes`
+  from {
+    width: 0;
   }
 `;
 
-export const ContainerImage = styled.div`
-  display: flex;
-  height: 20rem;
-  width: 20rem;
-  border-radius: 50%;
-  overflow: hidden;
+const blinking = keyframes`
+  50% {
+    border-color: transparent;
+  }
 `;
 
-export const Image = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+export const Section = styled(Shared.Section)`
+  flex-direction: column;
+  justify-content: center;
+`;
+
+export const InitialText = styled.div`
+  align-items: flex-start;
+`;
+
+export const P = styled.p`
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: monospace;
+`;
+
+export const Text = styled.p`
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: monospace;
+
+  border-right: 4px solid;
+  width: 31ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: ${typing} 3s steps(25),
+    ${blinking} 0.5s infinite step-end alternate;
+`;
+
+export const H2 = styled.h2`
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: monospace;
+  padding: 0.5rem 0;
 `;

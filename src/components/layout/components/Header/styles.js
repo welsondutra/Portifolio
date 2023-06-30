@@ -43,7 +43,8 @@ export const A = styled.a`
 
 export const Li = styled.li`
   letter-spacing: 3px;
-  margin-left: 32px;
+  margin: 32px;
+  width: 100px;
 
   @media (max-width: 999px) {
     margin-left: 0px;

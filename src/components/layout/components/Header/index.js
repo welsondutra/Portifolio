@@ -9,9 +9,13 @@ const Header = () => {
 
   return (
     <S.Container>
-      <S.A href="#inicio" className="logo">
+      <a
+        style={{ textDecoration: 'none', fontWeight: 'bold' }}
+        href="#home"
+        className="logo"
+      >
         Welson Dutra
-      </S.A>
+      </a>
 
       <nav>
         <S.Hamburger onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -23,13 +27,13 @@ const Header = () => {
         </S.Hamburger>
         <S.Ul isOpen={isMenuOpen}>
           <S.Li>
-            <S.A href={'#inicio'}>Inicio</S.A>
+            <S.A href={'#home'}>Inicio</S.A>
           </S.Li>
           <S.Li>
-            <S.A href={'#sobre'}>Sobre</S.A>
+            <S.A href={'#about'}>Sobre</S.A>
           </S.Li>
           <S.Li>
-            <S.A href={'#habilidades'}>Habilidades</S.A>
+            <S.A href={'#skills'}>Habilidades</S.A>
           </S.Li>
         </S.Ul>
       </nav>

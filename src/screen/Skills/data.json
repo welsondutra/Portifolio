@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "title": "Javascript",
+      "src": "/img/javascript.svg",
+      "data": "Utilizo JavaScript como uma ferramenta para desenvolver aplicações interativas e dinâmicas, permitindo-me criar grandes funcionalidades."
+    },
+    {
+      "id": 1,
+      "title": "ReactJS",
+      "src": "/img/reactjs.svg",
+      "data": "Com o ReactJS, desenvolvo aplicações modernas e reativas, proporcionando uma experiência fluida e intuitiva aos usuários."
+    },
+    {
+      "id": 2,
+      "title": "NodeJS",
+      "src": "/img/nodejs.svg",
+      "data": "Com o Node.js, posso criar aplicações escaláveis e de alto desempenho, aproveitando todo o poder do JavaScript no lado do servidor."
+    },
+    {
+      "id": 3,
+      "title": "MongoDB",
+      "src": "/img/mongodb.svg",
+      "data": "Com o MongoDB, posso criar soluções escaláveis e de alto desempenho, garantindo a persistência e recuperação dos dados de forma eficaz."
+    },
+    {
+      "id": 4,
+      "title": "NestJS",
+      "src": "/img/nestjs.svg",
+      "data": "Utilizo o NestJS, para construir aplicações robustas e escaláveis, aproveitando o poder do JavaScript. Permitindo criar APIs e microsserviços de forma simples e elegante."
+    }
+  ]
+}
