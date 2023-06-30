@@ -3,7 +3,11 @@ import { Shared } from '../../components';
 
 export const Container = styled.div`
   max-width: 450px;
-  padding: 0 5rem 4rem 0;
+  padding: 0 5rem 4rem 1rem;
+
+  @media (max-width: 1170px) {
+    padding: 4rem 1rem 4rem 1rem;
+  }
 `;
 
 export const Section = styled(Shared.Section)`
