@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import * as colors from '../../theme';
+import colors from '../../theme';
 
 export const Section = styled.section`
   display: flex;
@@ -7,5 +7,5 @@ export const Section = styled.section`
 
   margin: 0;
   min-height: 100vh;
-  background-color: ${colors.default.dark3};
+  background-color: ${colors.background};
 `;

@@ -5,14 +5,12 @@ export default createGlobalStyle`
   padding: 0;
   margin: 0;
 }
+
 :root {
-  --color-white: #fff;
-  --color-dark1: #272727;
-  --color-dark2: #2d2d2d;
-  --color-dark3: #414141;
-  --color-dark4: #1c1c1c;
-  --color-dark5: #343434;  
-  --color-primary: #006400;  
+  --color-primary: #272727;
+  --color-secondary: #343434;
+  --color-background: #2d2d2d;
+  --color-text: #fff;
 }
 
 html {
@@ -22,13 +20,13 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: var(--color-dark1);
-  color: var(--color-white);
+  background-color: var(--color-primary);
+  color: var(--color-text);
 }
 
 a {
   transition: 0.3s;
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 a:hover {

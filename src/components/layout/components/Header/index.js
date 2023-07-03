@@ -20,9 +20,9 @@ const Header = () => {
       <nav>
         <S.Hamburger onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? (
-            <AiOutlineClose color={colors.white} />
+            <AiOutlineClose color={colors.text} />
           ) : (
-            <GiHamburgerMenu color={colors.white} />
+            <GiHamburgerMenu color={colors.text} />
           )}
         </S.Hamburger>
         <S.Ul isOpen={isMenuOpen}>

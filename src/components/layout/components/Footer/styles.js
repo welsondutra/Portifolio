@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import * as colors from '../../../../theme';
+import colors from '../../../../theme';
 
 export const Container = styled.footer`
   flex: 1;
@@ -7,8 +7,8 @@ export const Container = styled.footer`
   bottom: 0;
   text-align: center;
 
-  background-color: ${colors.default.dark1};
-  color: ${colors.default.white};
+  background-color: ${colors.footer};
+  color: ${colors.text};
 `;
 
 export const Ul = styled.ul`

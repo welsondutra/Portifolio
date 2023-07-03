@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import * as colors from '../../theme';
+import colors from '../../theme';
 import { Shared } from '../../components';
 
 export const Section = styled(Shared.Section)`
@@ -27,7 +27,7 @@ export const BoxImage = styled.div`
   cursor: pointer;
 
   :hover {
-    background-color: ${colors.default.dark4};
+    background-color: ${colors.hover};
   }
 `;
 

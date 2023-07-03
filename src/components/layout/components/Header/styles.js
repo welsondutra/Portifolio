@@ -9,8 +9,8 @@ export const Container = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  background-color: ${colors.dark2};
-  box-shadow: 1px 1px 4px ${colors.dark1};
+  background-color: ${colors.primary};
+  box-shadow: 1px 1px 4px ${colors.footer};
 `;
 
 export const Ul = styled.ul`
@@ -30,7 +30,7 @@ export const Ul = styled.ul`
     justify-content: space-around;
     align-items: center;
 
-    background-color: ${colors.dark2};
+    background-color: ${colors.primary};
     transform: translateX(${(props) => (props.isOpen ? '0' : '100%')});
     transition: transform 0.3s ease-in;
   }

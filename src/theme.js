@@ -1,9 +1,10 @@
 export default {
-  white: '#fff',
-  dark1: '#1c1c1c',
-  dark2: '#272727',
-  dark3: '#2d2d2d',
-  dark4: '#343434',
-  dark5: '#414141',
-  primary: '#006400',
+  text: '#fff',
+
+  primary: '#272727',
+  secondary: '#343434',
+  background: '#2d2d2d',
+
+  hover: '#343434',
+  footer: '#1c1c1c',
 };
