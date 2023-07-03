@@ -18,7 +18,10 @@ const About = () => {
           desenvolvimento de interfaces responsivas utilizando <b>React.js</b> e
           na construção de APIs com <b>Node.js</b> e <b>Nest.js</b>, utilizando
           tanto <b>JavaScript</b> quanto <b>TypeScript</b>. Além disso, possuo
-          conhecimento em banco de dados NoSQL, com ênfase em <b>MongoDB</b>.
+          conhecimento em banco de dados NoSQL, com ênfase em <b>MongoDB</b>. Ao
+          longo da minha carreira, tive a oportunidade de trabalhar em projetos
+          desafiadores, atuando como desenvolvedor full-stack e criando soluções
+          tecnológicas.
         </p>
       </S.Container>
       <S.ContainerImage>

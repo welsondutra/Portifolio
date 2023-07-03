@@ -7,4 +7,6 @@ Será um espaço onde poderei destacar minhas habilidades, demonstrar meu estilo
 ___
 
 ### 📚 Seções
-- Home: Minha apresentação;
+- Inicio: Minha apresentação;
+- Sobre: Sobre mim e minha carreira;
+- Habilidades: Minhas habilidades e tecnologias que trabalho;
