@@ -3,32 +3,38 @@
     {
       "id": 0,
       "title": "Javascript",
-      "src": "/img/javascript.svg",
+      "src": "/assets/javascript.svg",
       "data": "Utilizo JavaScript como uma ferramenta para desenvolver aplicações interativas e dinâmicas, permitindo-me criar grandes funcionalidades."
     },
     {
       "id": 1,
       "title": "ReactJS",
-      "src": "/img/reactjs.svg",
+      "src": "/assets/reactjs.svg",
       "data": "Com o ReactJS, desenvolvo aplicações modernas e reativas, proporcionando uma experiência fluida e intuitiva aos usuários."
     },
     {
       "id": 2,
       "title": "NodeJS",
-      "src": "/img/nodejs.svg",
+      "src": "/assets/nodejs.svg",
       "data": "Com o Node.js, posso criar aplicações escaláveis e de alto desempenho, aproveitando todo o poder do JavaScript no lado do servidor."
     },
     {
       "id": 3,
       "title": "MongoDB",
-      "src": "/img/mongodb.svg",
+      "src": "/assets/mongodb.svg",
       "data": "Com o MongoDB, posso criar soluções escaláveis e de alto desempenho, garantindo a persistência e recuperação dos dados de forma eficaz."
     },
     {
       "id": 4,
       "title": "NestJS",
-      "src": "/img/nestjs.svg",
+      "src": "/assets/nestjs.svg",
       "data": "Utilizo o NestJS, para construir aplicações robustas e escaláveis, aproveitando o poder do JavaScript. Permitindo criar APIs e microsserviços de forma simples e elegante."
+    },
+    {
+      "id": 5,
+      "title": "Git",
+      "src": "/assets/git.svg",
+      "data": "Utilizo o Git como uma ferramenta essencial no meu fluxo de trabalho de desenvolvimento, permitindo-me gerenciar de forma eficiente o controle de versões, colaborar em projetos e manter um histórico organizado das alterações realizadas."
     }
   ]
 }
