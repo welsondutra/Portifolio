@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Shared } from '../../components';
+import colors from '../../theme';
 
 export const Container = styled.div`
   max-width: 450px;
@@ -32,5 +33,30 @@ export const Image = styled.img`
   height: 100%;
   object-fit: cover;
 `;
+export const Buttons = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
-export const Button = styled.button``;
+export const Button = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+  height: 2rem;
+  border-radius: 12px;
+  margin: 1rem;
+
+  font-family: monospace;
+  background-color: ${colors.secondary};
+  color: ${colors.text};
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+
+  :hover {
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+`;

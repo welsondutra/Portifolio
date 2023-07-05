@@ -23,8 +23,15 @@ const About = () => {
           desafiadores, atuando como desenvolvedor full-stack e criando soluções
           tecnológicas.
         </p>
-        <S.Button> Curriculo </S.Button>
-        <S.Button> Contrate me </S.Button>
+        <S.Buttons>
+          <S.Button
+            href="/download/welson_dutra.pdf"
+            download="welson_dutra.pdf"
+          >
+            Curriculo
+          </S.Button>
+          <S.Button href="#contact"> Contrate me </S.Button>
+        </S.Buttons>
       </S.Container>
       <S.ContainerImage>
         <S.Image src="/img/profile.jpeg" />
