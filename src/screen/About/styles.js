@@ -32,3 +32,5 @@ export const Image = styled.img`
   height: 100%;
   object-fit: cover;
 `;
+
+export const Button = styled.button``;

@@ -23,6 +23,8 @@ const About = () => {
           desafiadores, atuando como desenvolvedor full-stack e criando soluções
           tecnológicas.
         </p>
+        <S.Button> Curriculo </S.Button>
+        <S.Button> Contrate me </S.Button>
       </S.Container>
       <S.ContainerImage>
         <S.Image src="/img/profile.jpeg" />
