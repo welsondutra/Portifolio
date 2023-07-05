@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import { Shared } from '../../components';
+import { Shared } from '../../styles';
 
 const typing = keyframes`
   from {

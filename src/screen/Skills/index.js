@@ -5,7 +5,7 @@ import data from './data.json';
 const Skills = () => {
   return (
     <S.Section id="skills">
-      <h1 style={{ paddingBottom: '5rem' }}>Tecnologias</h1>
+      <S.Title>Tecnologias</S.Title>
       <S.ImgLine>
         {data.skills.map((item) => {
           return (

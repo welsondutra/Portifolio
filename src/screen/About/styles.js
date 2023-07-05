@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Shared } from '../../components';
+import { Shared } from '../../styles';
 
 export const Container = styled.div`
   max-width: 450px;

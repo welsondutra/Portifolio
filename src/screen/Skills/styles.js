@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import colors from '../../theme';
-import { Shared } from '../../components';
+import { Shared } from '../../styles';
+
+export const Title = styled(Shared.Title)``;
 
 export const Section = styled(Shared.Section)`
   flex-direction: column;
