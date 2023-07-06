@@ -18,7 +18,7 @@ const Contact = () => {
             href="https://github.com/welsondutra"
             target="_blank"
             rel="noreferrer"
-            style={{ fontSize: '12px', opacity: '0.5' }}
+            style={{ fontSize: '12px', opacity: '0.5', paddingBottom: '1rem' }}
           >
             https://github.com/welsondutra
           </a>
