@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import * as S from './styles';
 
 const Contact = () => {
-  const [sending, setSending] = useState(null);
-
   return (
     <S.Section id="contact">
       <S.Title>Contato</S.Title>
@@ -32,29 +30,31 @@ const Contact = () => {
             https://www.linkedin.com/in/welson-dutra/
           </a>
         </S.Contact>
-        <S.Form>
+        <form action="https://api.staticforms.xyz/submit" method="post">
           <S.Input
             placeholder="Nome"
-            disabled={sending}
             id="#name"
             type="text"
+            name="nome"
+            autoComplete="off"
+            required
           />
           <S.Input
             placeholder="Email"
-            disabled={sending}
             id="#email"
             type="email"
+            name="email"
+            autoComplete="off"
+            required
           />
-          <S.Message placeholder="Message" disabled={sending} id="#message" />
-          <S.Button
-            disabled={sending}
-            onClick={() => {
-              setSending(true);
-            }}
-          >
-            Enviar
-          </S.Button>
-        </S.Form>
+          <S.Message placeholder="Digite sua mensagem" id="#message" required />
+          <S.Button type="submit">Enviar</S.Button>
+          <input
+            type="hidden"
+            name="accessKey"
+            value="8f8f5148-a0b6-4a0e-af3a-d8cf0b40b7b5"
+          />
+        </form>
       </S.Container>
     </S.Section>
   );
