@@ -84,4 +84,5 @@ export const Button = styled.button`
   color: ${colors.text};
   border: none;
   cursor: pointer;
+  color: ${(props) => (!props.disabled ? colors.text : colors.primary)};
 `;

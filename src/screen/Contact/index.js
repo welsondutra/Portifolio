@@ -24,9 +24,19 @@ const Contact = () => {
           </a>
         </S.Contact>
         <S.Form>
-          <S.Input disabled={sending} id="#name" type="text" />
-          <S.Input disabled={sending} id="#email" type="email" />
-          <S.Message disabled={sending} id="#message" />
+          <S.Input
+            placeholder="Nome"
+            disabled={sending}
+            id="#name"
+            type="text"
+          />
+          <S.Input
+            placeholder="Email"
+            disabled={sending}
+            id="#email"
+            type="email"
+          />
+          <S.Message placeholder="Message" disabled={sending} id="#message" />
           <S.Button
             disabled={sending}
             onClick={() => {

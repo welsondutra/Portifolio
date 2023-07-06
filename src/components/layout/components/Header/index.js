@@ -36,7 +36,7 @@ const Header = () => {
             <S.A href={'#skills'}>Habilidades</S.A>
           </S.Li>
           <S.Li>
-            <S.A href={'#contact'}>Contato</S.A>
+            <S.A href={'#contact'}>Contate me</S.A>
           </S.Li>
         </S.Ul>
       </nav>

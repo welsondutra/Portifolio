@@ -29,10 +29,10 @@ export const Ul = styled.ul`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-    background-color: ${colors.primary};
+    display: ${(props) => (props.isOpen ? 'block' : 'none')};
+    /* background-color: ${colors.primary};
     transform: translateX(${(props) => (props.isOpen ? '0' : '100%')});
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in; */
   }
 `;
 
