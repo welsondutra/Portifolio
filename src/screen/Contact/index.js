@@ -13,6 +13,15 @@ const Contact = () => {
           <S.P>(31) 9 9407-4194</S.P>
           <h5>Email</h5>
           <S.P>welsonpereira83@gmail.com</S.P>
+          <h5>GitHub</h5>
+          <a
+            href="https://github.com/welsondutra"
+            target="_blank"
+            rel="noreferrer"
+            style={{ fontSize: '12px', opacity: '0.5' }}
+          >
+            https://github.com/welsondutra
+          </a>
           <h5>Linkedln</h5>
           <a
             href="https://www.linkedin.com/in/welson-dutra/"

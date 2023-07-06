@@ -30,9 +30,9 @@ export const Ul = styled.ul`
     justify-content: space-around;
     align-items: center;
     display: ${(props) => (props.isOpen ? 'block' : 'none')};
-    /* background-color: ${colors.primary};
+    background-color: ${colors.primary};
     transform: translateX(${(props) => (props.isOpen ? '0' : '100%')});
-    transition: transform 0.3s ease-in; */
+    transition: transform 0.3s ease-in;
   }
 `;
 
@@ -44,7 +44,6 @@ export const A = styled.a`
 export const Li = styled.li`
   letter-spacing: 3px;
   margin: 32px;
-  width: 100px;
 
   @media (max-width: 999px) {
     margin-left: 0px;
