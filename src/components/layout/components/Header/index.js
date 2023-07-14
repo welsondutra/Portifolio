@@ -35,9 +35,9 @@ const Header = () => {
           <S.Li>
             <S.A href={'#skills'}>Habilidades</S.A>
           </S.Li>
-          {/* <S.Li>
+          <S.Li>
             <S.A href={'#contact'}>Contacte-me</S.A>
-          </S.Li> */}
+          </S.Li>
         </S.Ul>
       </nav>
     </S.Container>
