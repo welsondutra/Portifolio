@@ -3,11 +3,7 @@ import React from 'react';
 import * as S from './styles';
 
 const About = () => {
-  const typography = {
-    alignSelf: 'center',
-    maxWidth: '70vw',
-    fontSize: '-1px',
-  };
+  const typography = { alignSelf: 'center', maxWidth: '70vw' };
 
   return (
     <S.Section id="about">
@@ -15,7 +11,7 @@ const About = () => {
         <h1 style={typography}>Desenvolvedor Full-Stack</h1>
         <br />
         <h3 style={typography}>
-          Olá, Meu nome é <b>Welson Dutra</b>.
+          Olá, Meu nome é <b>Welson DutrSa</b>.
         </h3>
         <br />
         <p style={typography}>
@@ -29,7 +25,7 @@ const About = () => {
           desafiadores, atuando como desenvolvedor full-stack e criando soluções
           tecnológicas.
         </p>
-        <S.Buttons>
+        <S.Buttons style={{}}>
           <S.Button
             href="/download/welson_dutra.pdf"
             download="welson_dutra.pdf"
