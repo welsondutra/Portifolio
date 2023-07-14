@@ -30,7 +30,7 @@ const About = () => {
           >
             Curriculo
           </S.Button>
-          {/* <S.Button href="#contact"> Contacte-me </S.Button> */}
+          <S.Button href="#contact"> Contacte-me </S.Button>
         </S.Buttons>
       </S.Container>
       <S.ContainerImage>
