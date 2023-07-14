@@ -17,7 +17,7 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
 
-  @media (max-width: 999px) {
+  @media (max-width: 1100px) {
     flex-direction: column;
   }
 `;
@@ -43,7 +43,7 @@ export const Form = styled.form`
   flex-direction: column;
 
   max-width: 750px;
-  @media (max-width: 999px) {
+  @media (max-width: 1100px) {
     padding: 2rem 0 0 0;
     display: flex;
   }

@@ -30,7 +30,7 @@ const Contact = () => {
             https://www.linkedin.com/in/welson-dutra/
           </a>
         </S.Contact>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <S.Form action="https://api.staticforms.xyz/submit" method="post">
           <S.Input
             placeholder="Nome"
             id="name"
@@ -65,7 +65,7 @@ const Contact = () => {
             name="redirectTo"
             value="https://welsondutra.vercel.app/"
           />
-        </form>
+        </S.Form>
       </S.Container>
     </S.Section>
   );
