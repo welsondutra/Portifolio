@@ -33,26 +33,37 @@ const Contact = () => {
         <form action="https://api.staticforms.xyz/submit" method="post">
           <S.Input
             placeholder="Nome"
-            id="#name"
+            id="name"
             type="text"
-            name="nome"
+            name="name"
             autoComplete="off"
             required
           />
           <S.Input
             placeholder="Email"
-            id="#email"
+            id="email"
             type="email"
             name="email"
             autoComplete="off"
             required
           />
-          <S.Message placeholder="Digite sua mensagem" id="#message" required />
+          <S.Message
+            placeholder="Digite sua mensagem"
+            id="message"
+            name="message"
+            required
+          />
           <S.Button type="submit">Enviar</S.Button>
+          <input type="text" name="honeypot" style={{ display: 'none' }} />
           <input
             type="hidden"
             name="accessKey"
             value="8f8f5148-a0b6-4a0e-af3a-d8cf0b40b7b5"
+          />
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://welsondutra.vercel.app/"
           />
         </form>
       </S.Container>
