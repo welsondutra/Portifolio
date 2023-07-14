@@ -20,12 +20,15 @@ export const Section = styled(Shared.Section)`
 
 export const InitialText = styled.div`
   align-items: flex-start;
+  max-width: 70vw;
 `;
 
 export const P = styled.p`
+  align-self: center;
   font-size: 20px;
   letter-spacing: 3px;
   font-family: monospace;
+  max-width: 70vw;
 `;
 
 export const Text = styled.p`
@@ -39,6 +42,12 @@ export const Text = styled.p`
   white-space: nowrap;
   animation: ${typing} 3s steps(25),
     ${blinking} 0.5s infinite step-end alternate;
+  @media (max-width: 470px) {
+    max-width: 70vw;
+    animation: none;
+    border-right: 0;
+    white-space: normal;
+  }
 `;
 
 export const H2 = styled.h2`

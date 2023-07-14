@@ -37,14 +37,15 @@ export const P = styled.p`
 `;
 
 export const Form = styled.form`
-  width: 30rem;
+  width: 50vw;
   display: flex;
   align-items: center;
   flex-direction: column;
-
+  padding: 0 2rem 0 0;
   max-width: 750px;
   @media (max-width: 1100px) {
-    padding: 2rem 0 0 0;
+    flex: 1;
+    padding: 2rem 0 2rem 0;
     display: flex;
   }
 `;

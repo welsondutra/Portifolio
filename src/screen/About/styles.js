@@ -7,14 +7,16 @@ export const Container = styled.div`
   padding: 0 5rem 4rem 1rem;
 
   @media (max-width: 1170px) {
+    display: flex;
     padding: 4rem 1rem 4rem 1rem;
+    flex-direction: column;
   }
 `;
 
 export const Section = styled(Shared.Section)`
   justify-content: center;
 
-  @media (max-width: 1170px) {
+  @media (max-width: 1100px) {
     flex-direction: column;
     justify-content: space-around;
   }
@@ -36,6 +38,11 @@ export const Image = styled.img`
 export const Buttons = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+  }
 `;
 
 export const Button = styled.a`

@@ -3,16 +3,22 @@ import React from 'react';
 import * as S from './styles';
 
 const About = () => {
+  const typography = {
+    alignSelf: 'center',
+    maxWidth: '70vw',
+    fontSize: '-1px',
+  };
+
   return (
     <S.Section id="about">
       <S.Container>
-        <h1>Desenvolvedor Full-Stack</h1>
+        <h1 style={typography}>Desenvolvedor Full-Stack</h1>
         <br />
-        <h3>
+        <h3 style={typography}>
           Olá, Meu nome é <b>Welson Dutra</b>.
         </h3>
         <br />
-        <p>
+        <p style={typography}>
           Sou um programador full stack, graduado em Análise e Desenvolvimento
           de Sistemas, com 2 anos e 4 meses de experiência. Tenho habilidades no
           desenvolvimento de interfaces responsivas utilizando <b>React.js</b> e
