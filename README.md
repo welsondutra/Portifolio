@@ -10,3 +10,4 @@ ___
 - Inicio: Minha apresentação;
 - Sobre: Sobre mim e minha carreira;
 - Habilidades: Minhas habilidades e tecnologias que trabalho;
+- Contato: Um local para entrar em contato comigo;
